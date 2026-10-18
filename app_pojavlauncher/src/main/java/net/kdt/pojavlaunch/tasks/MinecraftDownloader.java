@@ -82,7 +82,6 @@ public class MinecraftDownloader {
             try {
                 downloadGame(activity, version, realVersion);
                 listener.onDownloadDone();
-                }
             }catch (Exception e) {
                 listener.onDownloadFailed(e);
             }
